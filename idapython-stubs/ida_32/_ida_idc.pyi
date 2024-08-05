@@ -1,0 +1,9 @@
+# mypy: disable-error-code="valid-type, name-defined, no-redef, assignment, misc, override"
+
+from typing import Any
+
+SWIG_PYTHON_LEGACY_BOOL: int
+
+def get_mark_comment(*args, **kwargs): ...
+def get_marked_pos(slot) -> ea_t: ...
+def mark_position(ea, lnnum, x, y, slot, comment) -> Any: ...
